@@ -1,2 +1,2 @@
 # MediumBlog
-Code for Blog Post created for Medium Article
+Article: https://medium.com/series/279f75b3d9d5
