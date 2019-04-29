@@ -1,0 +1,10 @@
+<div class = "details">
+
+    <a href="{%url 'delete_article' object.pk %}"><btn><h4>Delete Post</h4></btn></a>
+    <a href="{%url 'edit_article' object.pk %}"><btn><h4>Edit Post</h4></btn></a>
+
+
+    <h2>{{object.title}}</h2>
+    <h3>{{object.author}}</h3>
+    <p>{{object.text}}</p>
+</div>

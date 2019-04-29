@@ -1,0 +1,11 @@
+<h1>Delete Page</h1>
+<form action = "" method = "POST">
+  {% csrf_token %}
+
+<font color = "red"><h3>Warning!</h3></font>
+<font color = "red"><p>Are you sure you want to delete: {{object.title}}</p></font>
+
+<input type = "submit" value = "Confirm">
+
+
+</form>

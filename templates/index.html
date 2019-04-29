@@ -1,1 +1,7 @@
 <h1> Hi! </h1>
+
+<a href = "{% url 'new_article' %}"><h1><btn>New Post</btn></h1></a>
+
+{% for arti in object_list%}
+<a href = "{% url 'article_page' arti.pk%}"><h3>{{arti.title}}</h3></a>
+{% endfor %}
